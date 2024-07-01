@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
         projectList.appendChild(projectItem);
     });
 
-    // Technical Skills
+
     const technicalSkillsList = document.querySelector('.technical-skills ul');
     const technicalSkills = ['HTML', 'CSS', 'JavaScript', 'Java', 'C', 'SQL'];
 
