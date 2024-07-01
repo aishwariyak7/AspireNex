@@ -57,7 +57,7 @@ function displayQuizzes() {
         a.href = "#";
         a.textContent = quiz.title;
         a.onclick = () => takeQuiz(index);
-        a.classList.add('quiz-link'); // Optional: Add a class for styling purposes
+        a.classList.add('quiz-link');
         quizList.appendChild(a);
     });
 }
