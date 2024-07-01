@@ -1,10 +1,10 @@
 
 body {
-    background-image: url('https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg'); /* Replace with your image path */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
+    background-image: url('https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg');
+    background-size: cover; 
+    background-position: center; 
     background-attachment: fixed;
-    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-repeat: no-repeat; 
 }
 .container {
     max-width: 800px;
@@ -12,8 +12,8 @@ body {
     padding: 20px;
     background-image: url('https://images.pexels.com/photos/1293006/pexels-photo-1293006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6), /* Black shadow effect */
-                0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow at the bottom */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6), 
+                0 4px 8px rgba(0, 0, 0, 0.4); 
 }
 
 h1, h2 {
@@ -82,7 +82,7 @@ input[type="radio"] {
     color: #555;
 }
 
-/* Styling for quiz list links */
+
 #quiz-list a {
     display: block;
     padding: 10px;
@@ -91,7 +91,7 @@ input[type="radio"] {
     color: #007BFF;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6); /* Black shadow effect on links */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
 }
 
 #quiz-list a:hover {
@@ -114,21 +114,21 @@ input[type="radio"] {
     background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: auto; /* Ensure no overflow outside the question container */
+    overflow: auto; 
 }
 .question p {
     font-size: 18px;
     margin-bottom: 10px;
 }
 .options {
-    margin-top: 10px; /* Add space between question text and options */
+    margin-top: 10px; 
     display: block;
-    flex-wrap: wrap; /* Allow options to wrap to the next line */
+    flex-wrap: wrap; 
     overflow: auto;
 }
 .options label {
     display: block;
-    margin-right: 20px; /* Add space between options */
+    margin-right: 20px; 
     margin-bottom: 8px;
     white-space: normal;
 }
