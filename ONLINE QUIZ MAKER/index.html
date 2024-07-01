@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Quiz Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Modern Quiz Maker</h1>
+        <div id="create-quiz-section">
+            <h2>Create Quiz</h2>
+            <input type="text" id="quiz-title" placeholder="Quiz Title">
+            <div id="questions-container"></div>
+            <button class="btn" onclick="addQuestion()">Add Question</button>
+            <button class="btn" onclick="saveQuiz()">Save Quiz</button>
+        </div>
+        <div id="quiz-list-section">
+            <h2>Available Quizzes</h2>
+            <ul id="quiz-list"></ul>
+        </div>
+        <div id="take-quiz-section" style="display: none;">
+            <h2 id="quiz-title-display"></h2>
+            <div id="quiz-questions"></div>
+            <button class="btn" onclick="submitQuiz()">Submit Quiz</button>
+        </div>
+        <div id="result-section" style="display: none;">
+            <h2>Quiz Result</h2>
+            <div class="score-container">
+                <p id="quiz-result"></p>
+                <div id="result-message"></div>
+            </div>
+            <button class="btn" onclick="goHome()">Go Home</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+
+body {
+    background-image: url('https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+.container {
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/1293006/pexels-photo-1293006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6), /* Black shadow effect */
+                0 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow at the bottom */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.score-container p {
+    font-size: 2rem;
+    margin: 0;
+    color: #007BFF;
+}
+
+#result-message {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Styling for quiz list links */
+#quiz-list a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8f9fa;
+    color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6); /* Black shadow effect on links */
+}
+
+#quiz-list a:hover {
+    background-color: #e2e6ea;
+}
+
+.quiz-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.quiz-questions {
+    margin-top: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Ensure no overflow outside the question container */
+}
+.question p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.options {
+    margin-top: 10px; /* Add space between question text and options */
+    display: block;
+    flex-wrap: wrap; /* Allow options to wrap to the next line */
+    overflow: auto;
+}
+.options label {
+    display: block;
+    margin-right: 20px; /* Add space between options */
+    margin-bottom: 8px;
+    white-space: normal;
+}
+.question div {
+    margin-top: 8px;
+}
+
+#submit-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.quiz-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
